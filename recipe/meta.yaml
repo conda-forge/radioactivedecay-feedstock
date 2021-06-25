@@ -1,5 +1,5 @@
 {% set name = "radioactivedecay" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: ddb0a1054cf659db465a7355be3f8ac203e81206aa90b07798ac0eeafb65d99a
+  sha256: 8b3da31957b7b12d7cb60acfe29fedf7ba13c280ea3f0d3d54487d81766fe9f3
 
 build:
   number: 0
@@ -43,7 +43,7 @@ about:
   home: https://github.com/alexmalins/radioactivedecay
   license: MIT AND LicenseRef-ICRP-07
   license_file: LICENSE
-  summary: 'Radioactive decay calculations in Python'
+  summary: Radioactive decay calculations in Python
   description: |
     A Python package for radioactive decay modelling that supports 1252
     radionuclides, decay chains, branching, and metastable states.
