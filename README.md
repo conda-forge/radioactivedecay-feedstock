@@ -3,7 +3,7 @@ About radioactivedecay
 
 Home: https://github.com/alexmalins/radioactivedecay
 
-Package license: MIT AND LicenseRef-ICRP-07
+Package license: MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedecay-feedstock/blob/master/LICENSE.txt)
 
