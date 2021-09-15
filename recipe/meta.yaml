@@ -1,5 +1,5 @@
 {% set name = "radioactivedecay" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: c849f5040db3211dbed13c0e27009056ea7c6c4fa099e23b33191641c40d9c9e
+  sha256: 3a4362d0e24d2e97dcb93ee69084dfdf8f8880515f5e3304cec7053762eb7a97
 
 build:
   number: 0
@@ -42,7 +42,7 @@ test:
 about:
   home: https://github.com/alexmalins/radioactivedecay
   license: MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07
-  license_file: 
+  license_file:
     - LICENSE
     - LICENSE.AMDC
     - LICENSE.ICRP-07
