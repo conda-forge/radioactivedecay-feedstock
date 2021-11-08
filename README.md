@@ -1,7 +1,7 @@
 About radioactivedecay
 ======================
 
-Home: https://github.com/alexmalins/radioactivedecay
+Home: https://github.com/radioactivedecay/radioactivedecay
 
 Package license: MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedeca
 
 Summary: Radioactive decay calculations in Python
 
-Development: https://github.com/alexmalins/radioactivedecay
+Development: https://github.com/radioactivedecay/radioactivedecay
 
-Documentation: https://alexmalins.com/radioactivedecay/
+Documentation: https://radioactivedecay.github.io
 
 A Python package for radioactive decay modelling that supports 1252
 radionuclides, decay chains, branching, and metastable states.
@@ -63,7 +63,8 @@ conda search radioactivedecay --channel conda-forge
 About conda-forge
 =================
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+[![Powered by
+NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
