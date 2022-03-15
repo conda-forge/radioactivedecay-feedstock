@@ -5,7 +5,7 @@ Home: https://github.com/radioactivedecay/radioactivedecay
 
 Package license: MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedecay-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedecay-feedstock/blob/main/LICENSE.txt)
 
 Summary: Radioactive decay calculations in Python
 
@@ -23,8 +23,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12759&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/radioactivedecay-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12759&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/radioactivedecay-feedstock?branchName=main">
       </a>
     </td>
   </tr>
