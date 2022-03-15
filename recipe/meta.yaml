@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: ae02662899617d18a2606c2d42ea60071fb5ee5cd26098e4819cb5d5d59f5261
+  sha256: b5c6906dd7fc49b29138e9a7b3c7fc1862b5b7f4ef6d44ed3ad086b67c856f3c
 
 build:
   number: 0
