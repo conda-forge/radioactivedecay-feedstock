@@ -1,5 +1,5 @@
 {% set name = "radioactivedecay" %}
-{% set version = "0.4.14" %}
+{% set version = "0.4.15" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: 6d13e0454a6b24d2dcd87e1b460735691e73bf1c40f5dd7dfa416f6f7839b16e
+  sha256: 93fbdd8540f12ab220aea9f23e1f3e07ba383a8837d0ea6fc8ac9826719c553d
 
 build:
   number: 0
@@ -34,7 +34,7 @@ test:
     - radioactivedecay
   commands:
     - pip check
-    # - python -m unittest discover
+    - python -m unittest discover
   requires:
     - pip
   source_files:
