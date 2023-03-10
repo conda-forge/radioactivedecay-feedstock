@@ -1,11 +1,11 @@
-About radioactivedecay
-======================
+About radioactivedecay-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedecay-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/radioactivedecay/radioactivedecay
 
 Package license: MIT AND LicenseRef-AMDC AND LicenseRef-ICRP-07
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/radioactivedecay-feedstock/blob/main/LICENSE.txt)
 
 Summary: Radioactive decay calculations in Python
 
