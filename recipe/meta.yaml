@@ -1,5 +1,5 @@
 {% set name = "radioactivedecay" %}
-{% set version = "0.4.17" %}
+{% set version = "0.4.18" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: dfe474d53f02755a39b40a1bbb189175284f693e0423f64e40878632cf1c0379
+  sha256: 8969d11f6bac890569705eb17cba8f2ee4f9302820a9cccaa79083796e23cc33
 
 build:
   number: 0
