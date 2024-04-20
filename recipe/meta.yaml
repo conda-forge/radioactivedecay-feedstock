@@ -1,5 +1,5 @@
 {% set name = "radioactivedecay" %}
-{% set version = "0.4.22" %}
+{% set version = "0.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
-  sha256: 2aad5d3d8c91bce23b3fa129b01f26f40ff4aabc56382a84747a4a895a87de00
+  sha256: 0ba2e6eae4f69ecbff77cfac08e6f569006f012686808d430fa7add123c55983
 
 build:
   number: 0
@@ -18,13 +18,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - importlib_resources
     - matplotlib-base
     - networkx
     - numpy
-    - python >=3.6
+    - pandas
+    - python >=3.8
     - scipy
     - setuptools
     - sympy
