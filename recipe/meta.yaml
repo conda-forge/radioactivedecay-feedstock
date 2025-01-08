@@ -29,7 +29,7 @@ requirements:
     - python >={{ python_min }}
     - scipy
     - setuptools
-    - sympy
+    - sympy <1.13.2
 
 test:
   imports:
