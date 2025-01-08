@@ -7,28 +7,29 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/radioactivedecay-{{ version }}.tar.gz
   sha256: 8f5fd6b323eeedbaf642e375b9da5f449878ee6ef458791111e1c1d396f56280
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
+    - setuptools
   run:
     - importlib_resources
     - matplotlib-base
     - networkx
     - numpy
     - pandas
-    - python >=3.8
+    - python >={{ python_min }}
     - scipy
     - setuptools
-    - sympy
+    - sympy <1.13.2
 
 test:
   imports:
@@ -38,6 +39,7 @@ test:
     - python -m unittest discover
   requires:
     - pip
+    - python {{ python_min }}
   source_files:
     - tests/
 
